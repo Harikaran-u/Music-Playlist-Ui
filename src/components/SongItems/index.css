@@ -1,0 +1,47 @@
+.song-card {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.thumbnail-info-cont {
+  display: flex;
+  align-items: center;
+}
+.thumbnail-img {
+  height: 100px;
+  width: 150px;
+  margin-right: 20px;
+}
+.song-info {
+  align-self: flex-end;
+}
+.title {
+  font-family: 'Roboto';
+  font-size: 24px;
+  color: #ffffff;
+}
+.genre {
+  font-family: 'Roboto';
+  font-size: 24px;
+  color: #3b82f6;
+}
+.duration-deletion-cont {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.duration {
+  font-family: 'Roboto';
+  font-size: 21px;
+  color: #ffffff;
+}
+
+.delete-btn {
+  background-color: transparent;
+  border: 0px solid;
+  outline: none;
+  cursor: pointer;
+  margin-left: 20px;
+}
